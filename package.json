@@ -1,0 +1,37 @@
+{
+  "name": "google-cloud-storage",
+  "version": "1.0.0",
+  "description": "Google cloud storage functions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaisser/node-google-cloud-storage.git"
+  },
+  "keywords": [
+    "google",
+    "cloud",
+    "storage",
+    "node",
+    "express"
+  ],
+  "author": "Doruk Karaboncuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chaisser/node-google-cloud-storage/issues"
+  },
+  "homepage": "https://github.com/Chaisser/node-google-cloud-storage#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^4.1.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.0.1",
+    "nodemon": "^1.19.4"
+  }
+}
