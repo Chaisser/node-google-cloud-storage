@@ -12,23 +12,23 @@ Create or edit your env. file to adjust Google Cloud Storage API.
 - Upload buffer withour saving the file
 - Multiple upload supported
 
-## ###API Requests
+##### API Requests
 
-####List all files
+#### List all files
 `GET /files` : <http://localhost:3001/files>
 
-####Download File
+#### Download File
 `GET /downlad/:fileName` : <http://localhost:3001/download/file>
 
-####Upload File
+#### Upload File
 `POST /upload` : <http://localhost:3001/upload>
 
-####Make File Public
+#### Make File Public
 `POST /makePublic/:fileName` : <http://localhost:3001/makePublic/file>
 
-###Responses
+### Responses
 
-#####List all files
+##### List all files
 
     {
     "status": "success",
@@ -46,14 +46,14 @@ Create or edit your env. file to adjust Google Cloud Storage API.
         }
     }
 
-#####Download File
+##### Download File
 
     {
     "status": "success",
     "fileName": "1572783488203-433953-972"
     }
 
-#####Upload File(s)
+##### Upload File(s)
 
     {
     "status": "success",
